@@ -1,0 +1,65 @@
+/* @font-face {
+  font-family: 'Brandon';
+  src: local('Brandon'), url('./font/Brandon_med.otf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon-regular';
+  src: local('Brandon'), url('./font/Brandon_reg.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+} */
+
+body {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --white: #fff;
+  --orange: #f58026;
+  --dark-blue: #004f71;
+  --cyan: #64ccc9;
+  --red: #b51e25;
+  --yellow: #ffc107;
+  --green: #1ad12c;
+  --secondary: #e3f2f9;
+  --primary: #1a95d1;
+  --tertiary: #004f71a6;
+  --dark-blue-text: #004f71;
+  --light-blue: #97cee9;
+
+  --bg-blue-light: rgba(26, 149, 209, 0.12);
+
+  --dark-grey: #7e7e7e;
+
+  --grey: #b9b7b5;
+  --light-grey: #dbe6eb;
+  --border-light-blue: #004f7180;
+}

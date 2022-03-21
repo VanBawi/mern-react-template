@@ -1,0 +1,41 @@
+{
+	"name": "abbott-guardian-nutrition",
+	"version": "1.0.0",
+	"description": "abbott-guardian-nutrition",
+	"main": "server.js",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"scripts": {
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"author": "Jack Van",
+	"license": "ISC",
+	"dependencies": {
+		"async": "^3.2.3",
+		"aws-sdk": "^2.1079.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.1",
+		"mongoose": "^6.2.3",
+		"node-fetch": "^2.6.6",
+		"node-schedule": "^2.1.0",
+		"path": "^0.12.7"
+	},
+	"devDependencies": {
+		"eslint": "^7.24.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-react": "^7.23.2",
+		"nodemon": "^2.0.7",
+		"prettier": "^2.2.1",
+		"react-test-renderer": "^17.0.2"
+	}
+}
